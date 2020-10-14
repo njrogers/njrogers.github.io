@@ -6,7 +6,7 @@
     (function ($) {
     "use strict"; // Start of use strict
 
-    // Smooth scrolling using jQuery easing
+    // Smooth scrolling using jQuery easing (line 25 controls speed in ms)
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
@@ -22,7 +22,7 @@
                     {
                         scrollTop: target.offset().top,
                     },
-                    1000,
+                    500,
                     "easeInOutExpo"
                 );
                 return false;
