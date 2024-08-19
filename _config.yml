@@ -3,14 +3,6 @@ description: "Personal Blog and Projects"
 baseurl: ""
 url: "https://nickrogers.dev"
 
-# Dependencies
-markdown: redcarpet
-highlighter: pygments
-
-# Permalinks
-permalink: pretty
-relative_permalinks: true
-
 # Navigation links
 links:
   - title: "Home"
