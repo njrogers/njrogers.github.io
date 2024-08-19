@@ -1,0 +1,16 @@
+title: "Nick Rogers"
+description: "Personal Blog and Projects"
+theme: minima
+baseurl: ""
+url: "https://nickrogers.dev"
+
+# Navigation links
+links:
+  - title: "Home"
+    url: "/"
+  - title: "About Me"
+    url: "/about/"
+  - title: "Blog"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
