@@ -1,7 +1,16 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-slate
-baseurl: "/"
-url: "https://njrogers.github.io"
+title: "Nick Rogers"
+description: "Personal Blog and Projects"
+theme: minima
+baseurl: ""
+url: "https://nickrogers.dev"
+
+# Navigation links
+links:
+  - title: "Home"
+    url: "/"
+  - title: "About Me"
+    url: "/about/"
+  - title: "Blog"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
