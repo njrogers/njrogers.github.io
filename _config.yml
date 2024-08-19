@@ -1,6 +1,6 @@
 title: "Nick Rogers"
 description: "Personal Blog and Projects"
-theme: minima
+theme: jekyll-theme-slate
 baseurl: ""
 url: "https://nickrogers.dev"
 
