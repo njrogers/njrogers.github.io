@@ -3,6 +3,10 @@ description: "Personal Blog and Projects"
 baseurl: ""
 url: "https://nickrogers.dev"
 
+# Dependencies
+markdown: redcarpet
+highlighter: pygments
+
 # Navigation links
 links:
   - title: "Home"
