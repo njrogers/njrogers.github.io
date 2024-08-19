@@ -4,6 +4,9 @@ theme: minima
 baseurl: ""
 url: "https://nickrogers.dev"
 
+# Custom CSS
+css: "assets/css/style.css"
+
 # Navigation links
 links:
   - title: "Home"
