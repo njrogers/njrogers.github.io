@@ -1,19 +1,39 @@
-<!-- header.html -->
-<header>
-    <div class="container">
-        <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        <nav>
-            <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/about/">About Me</a></li>
-                <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-                <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    
+    <!-- Link to Custom CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 
-<!-- footer.html -->
-<footer>
-    <p>&copy; 2024 Nick Rogers. All rights reserved.</p>
-</footer>
+    <!-- Other potential head elements like scripts, meta tags, etc. can be added here -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ site.baseurl }}/">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/about/">About Me</a></li>
+                    <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
+                    <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div class="content">
+        {{ content }}
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Nick Rogers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
