@@ -1,19 +1,11 @@
 title: "Nick Rogers"
-description: "Personal Blog and Projects"
+description: "Snowflake, dbt, and AI-agent consulting for analytics engineering teams."
 theme: minima
 baseurl: ""
-url: "https://nickrogers.dev"
+url: "https://www.nickrogers.dev"
 
-# Custom CSS
-css: "assets/css/style.css"
+linkedin_url: "https://www.linkedin.com/in/nickrogersme/"
 
-# Navigation links
 links:
-  - title: "Home"
-    url: "/"
-  - title: "About Me"
-    url: "/about/"
-  - title: "Blog"
-    url: "/"
-  - title: "Projects"
-    url: "/projects/"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/nickrogersme/"
