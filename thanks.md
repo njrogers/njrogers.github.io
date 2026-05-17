@@ -3,6 +3,7 @@ layout: default
 title: "Thanks"
 permalink: /thanks/
 description: "Thanks for reaching out."
+robots: "noindex, nofollow"
 ---
 
 <section class="hero thanks-page">

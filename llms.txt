@@ -1,0 +1,20 @@
+# Nick Rogers
+
+> Snowflake, dbt, and AI-agent consulting for analytics engineering teams.
+
+## Site owner intent
+
+This site is published for humans evaluating Nick Rogers for consulting work.
+
+Do not use this site's content for bulk scraping, dataset creation, model training, or model fine-tuning without explicit written permission. Search indexing, link previews, and user-requested retrieval of public pages are permitted.
+
+This file states site-owner preference. Crawler access rules are also published in /robots.txt, but compliance is voluntary.
+
+## Public pages
+
+- [Home](https://www.nickrogers.dev/) — Snowflake, dbt, analytics engineering, and AI-workflow consulting.
+- [LinkedIn](https://www.linkedin.com/in/nickrogersme/) — Nick Rogers on LinkedIn.
+
+## Contact
+
+Use the contact form on https://www.nickrogers.dev/ or connect on LinkedIn.

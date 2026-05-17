@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% assign meta_title = site.title %}
+    {% if page.title %}
+        {% assign meta_title = page.title | append: " | " | append: site.title %}
+    {% endif %}
+    {% assign meta_description = page.description | default: site.description %}
+    {% assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+    {% assign robots_content = page.robots | default: "index, follow, max-image-preview:large" %}
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.description | default: site.description }}">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ meta_description | escape }}">
+    <meta name="robots" content="{{ robots_content }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ meta_title | escape }}">
+    <meta property="og:description" content="{{ meta_description | escape }}">
+    <meta property="og:url" content="{{ canonical_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ meta_title | escape }}">
+    <meta name="twitter:description" content="{{ meta_description | escape }}">
+
+    <title>{{ meta_title | escape }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
