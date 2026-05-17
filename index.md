@@ -28,12 +28,12 @@ description: "Snowflake, dbt, and AI-agent consulting from Nick Rogers. Contact 
   <h2>Reviews from people I’ve worked for</h2>
   <ul>
     <li>
-      <p>“He inherited a Snowflake and dbt instance that was struggling to keep up with the volume and complexity of the data it was handling. He very quickly did two things that are conventionally in opposition — he increased performance significantly and reduced cost significantly. And by significantly I mean an order of magnitude. I’d hire Nick again in a heartbeat.”</p>
-      <span>Matt W. — Chief Data Science Officer, NeuroID</span>
+      <p>“He inherited a Snowflake and dbt instance that was struggling to keep up with the volume and complexity of the data it was handling. He very quickly did two things that are conventionally in opposition, he increased performance significantly and reduced cost significantly. And by significantly I mean an order of magnitude. I’d hire Nick again in a heartbeat.”</p>
+      <span>Matt W., Chief Data Science Officer, NeuroID</span>
     </li>
     <li>
       <p>“Nick is an immediate asset, seeing gaps and offering solutions. His work is accurate and insightful, with good judgement and just enough impatience to move things along.”</p>
-      <span>Duane J. — Engineering Manager, Crenlo</span>
+      <span>Duane J., Engineering Manager, Crenlo</span>
     </li>
   </ul>
 </section>
@@ -61,7 +61,7 @@ description: "Snowflake, dbt, and AI-agent consulting from Nick Rogers. Contact 
     <details id="review">
       <summary>Free Snowflake/dbt problem review</summary>
       <div class="review-intro">
-        <p>Send me a sanitized Snowflake, dbt, SQL, reporting, or AI-workflow problem. If it’s in my wheelhouse, I’ll spend 5–30 minutes thinking through it and send back how I’d approach it.</p>
+        <p>Send me a sanitized Snowflake, dbt, SQL, reporting, or AI-workflow problem. If it’s in my wheelhouse, I’ll spend 5 to 30 minutes thinking through it and send back how I’d approach it.</p>
         <p class="warning">Do not send credentials, private keys, customer data, or confidential records.</p>
       </div>
       <form class="problem-form" name="problem-review" method="POST" action="https://api.web3forms.com/submit">
